@@ -4,9 +4,9 @@ import io.restassured.path.json.JsonPath;
 
 public class ParseStringToJson {
 
-    public static JsonPath jsonPathMethod(String getResponse){
+    public static JsonPath jsonPathMethod(String Response){
 
-        JsonPath js = new JsonPath(getResponse);
+        JsonPath js = new JsonPath(Response);
 
         return js;
     }

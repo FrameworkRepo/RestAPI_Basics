@@ -1,0 +1,16 @@
+{
+	"location": {
+		"lat": 10.383494,
+		"lng": 13.427362
+	},
+	"accuracy": 90,
+	"name": "Front house",
+	"phone_number": "(+91) 988 344 4321",
+	"address": "21, side layout, cohen 09",
+	"types": [
+		"shoe park",
+		"shop"
+	],
+	"website": "http://google.com",
+	"language": "French-IN"
+}

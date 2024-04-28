@@ -1,9 +1,8 @@
 package Basics;
 
-import Files.Payload;
+import File.Payload;
 import ResuableCode.ParseStringToJson;
 import io.restassured.RestAssured;
-import io.restassured.path.json.JsonPath;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 

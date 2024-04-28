@@ -1,6 +1,4 @@
-package Files;
-
-import io.restassured.path.json.JsonPath;
+package File;
 
 public class Payload {
 
@@ -85,6 +83,15 @@ public class Payload {
                 "\n" +
                 "]\n" +
                 "\n" +
+                "}";
+    }
+
+    public static String addBook(String isbn, String aisle){
+        return "{\n" +
+                "    \"name\":\"Learn Appium Automation with Java\",\n" +
+                "    \"isbn\":\""+isbn+"\",\n" +
+                "    \"aisle\":\""+aisle+"\",\n" +
+                "    \"author\":\"John foe\"\n" +
                 "}";
     }
 }
